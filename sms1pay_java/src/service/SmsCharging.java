@@ -45,7 +45,7 @@ public class SmsCharging {
 				json.put("status", 0);
 				json.put("sms", "tin nhan sai cu phap");
 			}
-			json.put("text", "text");
+			json.put("type", "text");
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
